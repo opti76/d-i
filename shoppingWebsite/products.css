@@ -1,0 +1,178 @@
+body {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif, Arial;
+    background-image: url("../assets/backg1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.topnav {
+
+    background-image: url("../assets/stars7-1.gif");
+    width: 100%;
+    height: 70px;
+    display: inline-block;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+
+.fa-solid.fa-crown {
+    float: left;
+    color: #fff;
+    font-size: 40px;
+    position: relative;
+    left: 30px;
+    top: 15px;
+}
+
+.home {
+    float: right;
+    padding-top: 10px;
+    padding-right: 50px;
+    font-size: 26px;
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+    top: 15px;
+}
+
+.home:hover {
+    color: aqua;
+
+}
+
+.product img {
+    width: 280px;
+    height: 350px;
+    border: 5px solid #0074ff;
+}
+
+.product h3 {
+    margin-top: -10px;
+    color: aqua;
+}
+
+.newPrice,
+.oldPrice {
+    display: inline;
+}
+
+ul {
+    list-style: none;
+}
+
+ul {
+    padding-right: 40px;
+    margin-top: -10px;
+}
+
+td {
+    text-align: center;
+}
+
+th {
+    padding: 20px;
+}
+
+.product img {
+    border-radius: 8px;
+}
+
+.product {
+    margin: auto;
+    padding-bottom: 80px;
+}
+
+.addToCart {
+    height: 35px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    color: grey;
+}
+
+.addToCart:hover {
+    background-color: #03beff;
+    color: #fff;
+}
+
+.newPrice {
+    color: #20a38c;
+    font-weight: bold;
+}
+
+.oldPrice {
+    font-size: 13px;
+    text-decoration: line-through;
+    color: #e94343;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background-color: #000;
+    color: #fff;
+    font-size: 22px;
+    text-align: center;
+    padding-bottom: 22px;
+}
+
+h1 {
+    color: #fff;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    padding-top: 80px;
+    text-decoration: underline;
+}
+
+
+
+.container {
+    position: relative;
+    width: 100%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .3s ease;
+}
+
+.container:hover .overlay {
+    opacity: 1;
+}
+
+.container:hover img {
+    box-shadow: 0 0 5px 5px #898989;
+}
+
+.overlay i {
+    background-color: #fff;
+    padding: 18px;
+    border-radius: 8px;
+    margin-top: 150px;
+    margin-right: 8px;
+    color: #0066ff;
+}
+
+.overlay i:hover {
+    background-color: #d5d5d5;
+}
+
+.overlay a {
+    text-decoration: none;
+}

@@ -1,0 +1,70 @@
+body {
+
+    margin: 0;
+    padding: 0;
+    background-image: url("../assets/backg1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    font-family: sans-serif, Arial;
+}
+
+.topnav {
+
+    background-image: url("../assets/stars7-1.gif");
+    width: 100%;
+    height: 70px;
+    display: inline-block;
+    position: fixed;
+    top: 0;
+
+}
+
+
+.fa-solid.fa-crown {
+    float: left;
+    color: #fff;
+    font-size: 40px;
+    position: relative;
+    left: 30px;
+    top: 15px;
+
+}
+
+.ourProducts {
+    float: right;
+    padding-top: 10px;
+    padding-right: 50px;
+    font-size: 26px;
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+    top: 15px;
+}
+
+.ourProducts:hover {
+    color: aqua;
+
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background-color: #000;
+    color: #fff;
+    font-size: 22px;
+    text-align: center;
+    padding-bottom: 22px;
+
+}
+
+h1 {
+    font-size: 100px;
+    color: #fff;
+    margin: auto;
+    text-align: center;
+    top: 400px;
+    position: relative;
+}
