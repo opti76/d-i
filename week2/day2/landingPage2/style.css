@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif, Arial;
+    background-color: #7cb9b4;
+}
+
+h1 {
+    color: #fff;
+}
+
+main {
+    text-align: center;
+
+}
+
+
+form {
+    width: 600px;
+    margin: auto;
+    margin-top: 80px;
+
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+
+
+
+}
+
+section div {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+
+
+
+
+
+}
+
+input {
+    height: 30px;
+    border-radius: 5px;
+    border: 0;
+}
+
+label {
+    font-size: 14px;
+    color: #fff;
+}
+
+.employees {
+    width: 600px;
+    text-align: start;
+
+}
+
+select {
+    height: 30px;
+    border-radius: 5px;
+    border: 0;
+}
+
+#download {
+    margin-top: 50px;
+    padding: 10px;
+}
+
+#navbutton {
+    padding: 10px;
+    height: 40px;
+    top: 5px;
+}
+
+button {
+    border-radius: 5px;
+    border: 0;
+    background-color: #00a1d8;
+    color: #fff;
+    cursor: pointer;
+}
+
+#services {
+    width: 600px;
+}
+
+.list {
+    color: #fff;
+}
+
+nav p {
+    color: #fff;
+    font-weight: bold;
+}
+
+nav {
+    background-color: #32676d;
+    position: absolute;
+    top: 0;
+    display: inline-flex;
+    width: 100vw;
+    justify-content: space-evenly;
+    align-items: center;
+}

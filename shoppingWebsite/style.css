@@ -7,6 +7,7 @@ body {
     background-repeat: no-repeat;
     box-sizing: border-box;
     font-family: sans-serif, Arial;
+    min-height: 100vh;
 }
 
 .topnav {

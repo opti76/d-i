@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>First Landing page</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <p>UNBURDEN YOURSELF FROM THE WEIGHT OF EMAIL OVERLOAD!</p>
+            <button id="navbutton">LEARN HOW</button>
+        </nav>
+    </header>
+    <main>
+        <h1>DOWNLOAD NOW</h1>
+        <form action="">
+            <section>
+                <div class="firstName">
+                    <label for="fname">FIRST NAME*</label>
+                    <input type="text" id="fname" name="fname">
+                </div>
+                <div class="lastName">
+                    <label for="lname">LAST NAME*</label>
+                    <input type="text" id="lname" name="lname">
+                </div>
+                <div class="Email">
+                    <label for="email">EMAIL (<a href="#">PRIVACY POLICY</a>)*</label>
+                    <input type="email" id="email" name="email">
+                </div>
+            </section>
+            <section>
+                <div class="phoneNumber">
+                    <label for="phoneNumber">PHONE NUMBER*</label>
+                    <input type="number" id="phone" name="phone">
+                </div>
+                <div class="url">
+                    <label for="url">WEBSITE URL*</label>
+                    <input type="url" id="url" name="url">
+                </div>
+                <div class="companyName">
+                    <label for="companyName">COMPANY NAME*</label>
+                    <input type="text" id="companyName" name="companyName">
+                </div>
+            </section>
+            <section>
+                <div class="employees">
+                    <label for="employees">HOW MANY EMPLOYEES WORK THERE*</label>
+                    <select name="employees" id="employees">
+                        <option value="- Please Select -">- Please Select -</option>
+                        <option value="10-50">10-50</option>
+                        <option value="50-100">50-100</option>
+                        <option value="Above 100">Above 100</option>
+                    </select>
+                </div>
+            </section>
+            <section>
+                <div class="list">
+                    <p>DOES YOUR COMPANY SELL ANY OF THE FOLLOWING SERVICES:</p>
+                    <ul>
+                        <li>WEB DESIGN</li>
+                        <li>ONLINE MARKETING</li>
+                        <li>SEO/SEM</li>
+                        <li>ADVERTISING AGENCY SERVICES*</li>
+                    </ul>
+                    <select name="services" id="services">
+                        <option value="- Please Select -">- Please Select -</option>
+                        <option value="option1">option1</option>
+                        <option value="option2">option2</option>
+                        <option value="option3">option3</option>
+                        <option value="option4">option4</option>
+                    </select>
+                </div>
+            </section>
+        </form>
+        <div class="subscribe">
+            <input type="checkbox" id="subscription" name="subscription" value="checked">
+            <label for="subscription">SUBSCRIBE TO HUBSPOT'S MARKETING BLOG</label>
+        </div>
+        <button id="download">DOWNLOAD NOW</button>
+    </main>
+</body>
+
+</html>

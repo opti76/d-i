@@ -7,6 +7,11 @@ body {
     background-image: url("../assets/backg1.png");
     background-size: cover;
     background-repeat: no-repeat;
+    
+}
+
+main {
+    min-height: 100vh;
 }
 
 .topnav {
