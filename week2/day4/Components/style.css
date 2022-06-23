@@ -1,0 +1,48 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.row.g-3 {
+    align-items: center;
+
+}
+
+.btn-primary.mb-3 {
+    position: relative;
+    top: 8px;
+}
+
+nav {
+    position: fixed;
+
+
+}
+
+
+#staticEmail2 {
+    border: 1px solid lightgrey;
+    border-radius: .375rem;
+    padding-left: 13px;
+    background-color: #fff;
+}
+
+#contact {
+    background-color: transparent;
+    border-color: transparent;
+    color: #6c757d;
+    margin-top: 1px;
+}
+
+span.badge.text-bg-secondary {
+    border-radius: 10px;
+}
+
+#leftCard,
+#centerCard,
+#rightCard {
+    background-color: transparent;
+    color: #000;
+    border-color: lightgray;
+}

@@ -1,0 +1,72 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    
+}
+
+body {
+    background-image: url("https://cdn.pixabay.com/photo/2015/05/26/23/52/technology-785742_960_720.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    
+}
+
+.card-body {
+    width: 500px;
+    height: 300px;
+    align-self: center;
+    padding-top: 150px;
+}
+
+.card-body a {
+    margin-top: 50px;
+    
+}
+
+.card {
+    border: none;
+}
+
+.col {
+
+    width: 300px;
+    position: relative;
+    align-items: center;
+    margin: auto;
+
+}
+
+footer {
+    bottom: 0;
+    
+    position: fixed;
+    width: 100vw;
+    height: 357px;
+}
+
+footer i {
+    text-align: center;
+    font-size: 40px;
+    top: 70px;
+    position: relative;
+    color: #7c9cc6;
+
+}
+
+.card-title {
+    color: #7c9cc6;
+}
+
+.footerText {
+    color: #7c9cc6;
+    font-weight: bold;
+
+}
+
+.card-footer {
+    border: none;
+    background-color: transparent;
+}
+
