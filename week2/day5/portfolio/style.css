@@ -1,0 +1,161 @@
+html,body {
+    padding: 0;
+    margin: 0;
+    
+}
+
+body {
+    background-color: lightgray;
+}
+
+.rightLinks {
+display: flex;
+right: 20px;
+position: absolute;
+
+}
+
+nav {
+    background-color: rgb(253, 123, 2);
+    
+}
+
+nav a {
+    color: #fff;
+}
+
+.container.first {
+   display: flex;
+   position: relative;
+   top: 200px;
+   flex-direction: column;
+   height: 800px;
+   
+   align-items: flex-start;
+   width: 40vw;
+   
+   
+   
+}
+
+h1,h5 {
+    color: rgb(253, 123, 2);
+    
+}
+
+h2 {
+    color: rgb(253, 123, 2);
+    text-align: center;
+    
+}
+
+.seeMore {
+    color :#fff;
+    background-color: rgb(253, 123, 2);
+    border-color: transparent;
+    border-radius: 3px;
+}
+
+#firstSection {
+    background-image: url("https://cdn.pixabay.com/photo/2016/03/26/13/09/workspace-1280538_960_720.jpg");
+    background-size: cover;
+    
+}
+
+#firstSection p {
+    color: #fff;
+}
+
+.container.second {
+    height: 800px;
+    display: flex;
+   position: relative;
+   top: 100px;
+   flex-direction: column;
+}
+
+.card {
+    align-self: center;
+    top: 100px;
+    height: 300px;
+    padding: 30px 10px 30px 10px;
+    background-color: transparent;
+    border: none;
+    
+}
+
+.card img {
+    border-right: 2px solid green;
+    padding-right: 10px;
+}
+
+.card-text {
+    text-align: center;
+}
+
+.col {
+    
+    width: 300px;
+    height: 300px;
+    margin: 5px;
+    
+
+}
+
+.col img {
+    height: 300px;
+    width: 300px;
+}
+
+.row.row-cols-3 {
+    justify-content: center;
+}
+
+.container.third {
+    height: 800px;
+    margin-top: 100px;
+    
+}
+
+.container.fourth {
+    display: flex;
+    position: relative;
+    
+    justify-content: center;
+    height: 800px;
+    margin-top: 100px;
+}
+
+.container.fifth {
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.fa-brands {
+    font-size: 24px;
+    color:rgb(253, 123, 2);
+    margin-left: 10px;
+    
+}
+
+#footer {
+    display: flex;
+    
+    justify-content: center;
+    height: 800px;
+    margin-top: 100px;
+    height: 400px;
+    
+}
+
+.contact {
+    margin-right: 50px;
+    text-align: center;
+    margin-top: 50px;
+}
+form {
+    width: 30vw;
+}
+
+
