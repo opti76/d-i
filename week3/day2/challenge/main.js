@@ -36,7 +36,7 @@ console.log(fruits5);
 let moreFruits = ["Banana", ["Apples", ["Oranges"], "Blueberries"]];
 let outcome = moreFruits.indexOf("Oranges"); 
 console.log(outcome); /* i got "-1"*/
-console.log(moreFruits [1][1]);
+console.log(moreFruits [1][1][0]);
 
 
 
